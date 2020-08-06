@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run dist
+web: sh setup.sh && streamlit run dist.py
