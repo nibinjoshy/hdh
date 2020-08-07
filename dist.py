@@ -7,6 +7,7 @@ import seaborn as sns
 
 
 st.write("Distilation column")
+st.title('Distillation Column')
 def main():
     xw = st.sidebar.slider('bottoms concentration', .04, .99, .058)
     xf = st.sidebar.slider('Feed concentration', .04, .99, .45)
