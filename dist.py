@@ -97,6 +97,7 @@ def main():
         plt.plot(au, ay, 'r')
     sns.set_style("darkgrid")
     st.pyplot()
+    st.write("r min=",rm)
 if __name__=='__main__':
     main()
 
